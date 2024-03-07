@@ -19,11 +19,26 @@ namespace N11310004
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+          
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnButton_Click(object sender, EventArgs e)
+        {
+
+            if (btnButton.Text =="按鈕")
+                btnButton.Text = "我已經被按過了";
+            else if (btnButton.Text =="我已經被按過了")
+                btnButton.Text ="按鈕";
 
         }
     }
