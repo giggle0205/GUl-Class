@@ -1,6 +1,6 @@
 ﻿namespace N11310004
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         /// 設計工具所需的變數。
@@ -58,6 +58,7 @@
             this.label2.Size = new System.Drawing.Size(299, 61);
             this.label2.TabIndex = 1;
             this.label2.Text = "N11310004";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -95,18 +96,21 @@
             this.btnBMI.UseVisualStyleBackColor = false;
             this.btnBMI.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // Form1
+            // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnBMI);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnButton);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Name = "FormMain";
+            this.Text = "程式視窗";
+            this.Load += new System.EventHandler(this.FormMain_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -7,4 +7,5 @@ C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.csproj.
 C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.csproj.CoreCompileInputs.cache
 C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.exe
 C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.pdb
-C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.Form1.resources
+C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.FormMain.resources
+C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.FormButton.resources
