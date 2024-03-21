@@ -19,10 +19,35 @@ namespace N11310004
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (btnClick.Text =="核彈按鈕")
-                btnClick.Text = "核彈已經飛越你家上空";          
-            else if (btnClick.Text =="核彈已經飛越你家上空")
-                btnClick.Text ="核彈按鈕";
+            if (btnClick.Text =="導彈按鈕")
+            {
+                btnClick.Text = "導彈已經飛越你家上空";
+                btnClick.BackColor = System.Drawing.Color.FromArgb(255, 128, 128);
+            }
+            else if (btnClick.Text =="導彈已經飛越你家上空")
+            {
+                btnClick.Text ="導彈按鈕";
+                btnClick.BackColor = System.Drawing.Color.FromArgb(192, 255, 192);
+            }
+        }
+
+        private void butlab_Click(object sender, EventArgs e)
+        {
+            label1.Text = "下方按鈕已經被按過";
+            label1.Size = new System.Drawing.Size(200, 600);
+            label1.BackColor = System.Drawing.Color.Red;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void butCount_Click(object sender, EventArgs e)
+        {
+            string tmp = labCount.Text;
+            int sum = Int32.Parse(tmp)+1;
+            labCount.Text = sum.ToString();
         }
     }
 }
