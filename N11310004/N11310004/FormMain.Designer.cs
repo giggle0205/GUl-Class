@@ -33,6 +33,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnBMI = new System.Windows.Forms.Button();
+            this.butTextBox = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnButton
@@ -96,12 +98,39 @@
             this.btnBMI.UseVisualStyleBackColor = false;
             this.btnBMI.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // butTextBox
+            // 
+            this.butTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.butTextBox.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.butTextBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.butTextBox.Location = new System.Drawing.Point(23, 246);
+            this.butTextBox.Name = "butTextBox";
+            this.butTextBox.Size = new System.Drawing.Size(338, 89);
+            this.butTextBox.TabIndex = 3;
+            this.butTextBox.Text = "輸入框";
+            this.butTextBox.UseVisualStyleBackColor = false;
+            this.butTextBox.Click += new System.EventHandler(this.button1_Click_2);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.button1.Font = new System.Drawing.Font("微軟正黑體", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.button1.Location = new System.Drawing.Point(430, 247);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(168, 89);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "作業1";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_3);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.butTextBox);
             this.Controls.Add(this.btnBMI);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -123,6 +152,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnBMI;
+        private System.Windows.Forms.Button butTextBox;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormbtnTextbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormbtnTextbox.Designer.cs">
+      <DependentUpon>FormbtnTextbox.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormButton.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,13 +64,25 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormOt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOt.Designer.cs">
+      <DependentUpon>FormOt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormbtnTextbox.resx">
+      <DependentUpon>FormbtnTextbox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormButton.resx">
       <DependentUpon>FormButton.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOt.resx">
+      <DependentUpon>FormOt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

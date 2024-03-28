@@ -33,9 +33,7 @@ namespace N11310004
         }
 
         private void btnButton_Click(object sender, EventArgs e)
-        {
-
-           
+        {         
             Form form = new FormButton();
             form.Show();
 
@@ -49,6 +47,18 @@ namespace N11310004
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            Form formButTextbox = new FormbtnTextbox();
+            formButTextbox.Show();
+        }
+
+        private void button1_Click_3(object sender, EventArgs e)
+        {
+            Form formOt = new FormOt();
+            formOt.Show();
         }
     }
 }
