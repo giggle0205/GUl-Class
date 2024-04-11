@@ -37,7 +37,7 @@
             // 
             this.butAdd.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.butAdd.Font = new System.Drawing.Font("微軟正黑體", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.butAdd.Location = new System.Drawing.Point(299, 147);
+            this.butAdd.Location = new System.Drawing.Point(120, 187);
             this.butAdd.Name = "butAdd";
             this.butAdd.Size = new System.Drawing.Size(75, 56);
             this.butAdd.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             this.butreduce.BackColor = System.Drawing.Color.IndianRed;
             this.butreduce.Font = new System.Drawing.Font("微軟正黑體", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.butreduce.Location = new System.Drawing.Point(415, 147);
+            this.butreduce.Location = new System.Drawing.Point(236, 187);
             this.butreduce.Name = "butreduce";
             this.butreduce.Size = new System.Drawing.Size(75, 56);
             this.butreduce.TabIndex = 1;
@@ -62,7 +62,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("微軟正黑體", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(369, 69);
+            this.label1.Location = new System.Drawing.Point(190, 109);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 61);
             this.label1.TabIndex = 2;
@@ -72,7 +72,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(876, 521);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.butreduce);
             this.Controls.Add(this.butAdd);
