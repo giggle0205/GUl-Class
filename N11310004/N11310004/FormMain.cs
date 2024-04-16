@@ -29,7 +29,8 @@ namespace N11310004
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-
+            Form formBMI = new FormBMI();
+            formBMI.Show();
         }
 
         private void btnButton_Click(object sender, EventArgs e)

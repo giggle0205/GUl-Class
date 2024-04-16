@@ -92,7 +92,7 @@
             this.btnBMI.Font = new System.Drawing.Font("微軟正黑體", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnBMI.Location = new System.Drawing.Point(430, 128);
             this.btnBMI.Name = "btnBMI";
-            this.btnBMI.Size = new System.Drawing.Size(338, 89);
+            this.btnBMI.Size = new System.Drawing.Size(168, 89);
             this.btnBMI.TabIndex = 2;
             this.btnBMI.Text = "BMI計算";
             this.btnBMI.UseVisualStyleBackColor = false;

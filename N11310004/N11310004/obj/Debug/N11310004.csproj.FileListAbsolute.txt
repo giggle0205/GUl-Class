@@ -22,3 +22,4 @@ C:\Users\MEGAS\Desktop\新增資料夾\GUl-Class\N11310004\N11310004\bin\Debug\N
 C:\Users\MEGAS\Desktop\新增資料夾\GUl-Class\N11310004\N11310004\bin\Debug\N11310004.pdb
 C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.FormbtnTextbox.resources
 C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.FormOt.resources
+C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.FormBMI.resources

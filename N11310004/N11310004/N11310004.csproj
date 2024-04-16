@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormBMI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBMI.Designer.cs">
+      <DependentUpon>FormBMI.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormbtnTextbox.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormBMI.resx">
+      <DependentUpon>FormBMI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormbtnTextbox.resx">
       <DependentUpon>FormbtnTextbox.cs</DependentUpon>
     </EmbeddedResource>
