@@ -61,5 +61,11 @@ namespace N11310004
             Form formOt = new FormOt();
             formOt.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form formCtoF = new FormCtoF();
+            formCtoF.Show();
+        }
     }
 }
