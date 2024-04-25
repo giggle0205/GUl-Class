@@ -67,5 +67,11 @@ namespace N11310004
             Form formCtoF = new FormCtoF();
             formCtoF.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form formTryCatchClick = new FormTryCatch();
+            formTryCatchClick.Show();
+        }
     }
 }

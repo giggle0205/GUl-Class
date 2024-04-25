@@ -24,3 +24,4 @@ C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.Formbtn
 C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.FormOt.resources
 C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.FormBMI.resources
 C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.FormCtoF.resources
+C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.FormTryCatch.resources
