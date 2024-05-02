@@ -73,5 +73,11 @@ namespace N11310004
             Form formTryCatchClick = new FormTryCatch();
             formTryCatchClick.Show();
         }
+
+        private void Timer_Click(object sender, EventArgs e)
+        {
+            Form formTimer = new FormTimer();
+            formTimer.Show();
+        }
     }
 }

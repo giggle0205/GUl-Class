@@ -82,6 +82,12 @@
     <Compile Include="FormOt.Designer.cs">
       <DependentUpon>FormOt.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTimer.Designer.cs">
+      <DependentUpon>FormTimer.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTryCatchClick.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormOt.resx">
       <DependentUpon>FormOt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTimer.resx">
+      <DependentUpon>FormTimer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTryCatchClick.resx">
       <DependentUpon>FormTryCatchClick.cs</DependentUpon>

@@ -37,6 +37,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.Timer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnButton
@@ -150,12 +151,25 @@
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // Timer
+            // 
+            this.Timer.BackColor = System.Drawing.Color.Yellow;
+            this.Timer.Font = new System.Drawing.Font("微軟正黑體", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Timer.Location = new System.Drawing.Point(620, 129);
+            this.Timer.Name = "Timer";
+            this.Timer.Size = new System.Drawing.Size(168, 89);
+            this.Timer.TabIndex = 7;
+            this.Timer.Text = "Timer";
+            this.Timer.UseVisualStyleBackColor = false;
+            this.Timer.Click += new System.EventHandler(this.Timer_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Timer);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -185,6 +199,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button Timer;
     }
 }
 
