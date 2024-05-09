@@ -79,5 +79,11 @@ namespace N11310004
             Form formTimer = new FormTimer();
             formTimer.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form formuLtimPass = new FormuLtimPass();
+            formuLtimPass.Show();
+        }
     }
 }

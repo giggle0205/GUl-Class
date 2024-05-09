@@ -38,6 +38,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.Timer = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnButton
@@ -163,12 +164,25 @@
             this.Timer.UseVisualStyleBackColor = false;
             this.Timer.Click += new System.EventHandler(this.Timer_Click);
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.GreenYellow;
+            this.button4.Font = new System.Drawing.Font("微軟正黑體", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.button4.Location = new System.Drawing.Point(620, 237);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(168, 89);
+            this.button4.TabIndex = 8;
+            this.button4.Text = "終極密碼";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.Timer);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -200,6 +214,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button Timer;
+        private System.Windows.Forms.Button button4;
     }
 }
 
