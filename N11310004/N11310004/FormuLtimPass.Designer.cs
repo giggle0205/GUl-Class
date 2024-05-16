@@ -55,6 +55,7 @@
             this.label1.Size = new System.Drawing.Size(286, 31);
             this.label1.TabIndex = 1;
             this.label1.Text = "提示:請輸入0~100正整數";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
             // 
@@ -63,6 +64,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(163, 39);
             this.textBox1.TabIndex = 2;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button2
             // 

@@ -12,6 +12,8 @@ namespace N11310004
 {
     public partial class FormuLtimPass : Form
     {
+        int min=0, max=100;
+        int answer;
         public FormuLtimPass()
         {
             InitializeComponent();
@@ -19,14 +21,47 @@ namespace N11310004
 
         private void button2_Click(object sender, EventArgs e)
         {
+            try
+            { 
+                int input =Int32.Parse(textBox1.Text);
+                if (input == this.answer)
+                {
+                    MessageBox.Show("恭喜答對!");
+
+                }
+                else if (input< this.answer)
+                {
+                    this.min=input;                
+                }
+                else if (input> this.answer)
+                {
+                    this.max=input;
+                }
+                label1.Text =string.Format("提示:請輸入{0}~{1}正整數", min, max);
+            }
+            catch(Exception el)
+            {
+                MessageBox.Show("輸入錯誤，請輸入數字");
+            }
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Random r = new Random();
-            int resuit = r.Next(100);
-            MessageBox.Show(resuit.ToString());
+           this.answer = r.Next(100);
+            MessageBox.Show(answer.ToString());
+            label1.Text =string.Format("提示:請輸入{0}~{1}正整數",min,max);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
