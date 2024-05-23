@@ -27,3 +27,4 @@ C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.FormCto
 C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.FormTryCatch.resources
 C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.FormTimer.resources
 C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.FormuLtimPass.resources
+C:\Users\MEGAS\Desktop\GUl-Class\N11310004\N11310004\obj\Debug\N11310004.FormCheckBox.resources

@@ -85,5 +85,11 @@ namespace N11310004
             Form formuLtimPass = new FormuLtimPass();
             formuLtimPass.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form formCheckBox = new FormCheckBox();
+            formCheckBox.Show();
+        }
     }
 }
