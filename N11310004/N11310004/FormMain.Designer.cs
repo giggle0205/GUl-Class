@@ -40,6 +40,7 @@
             this.Timer = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnButton
@@ -49,7 +50,7 @@
             this.btnButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnButton.Location = new System.Drawing.Point(23, 128);
             this.btnButton.Name = "btnButton";
-            this.btnButton.Size = new System.Drawing.Size(338, 89);
+            this.btnButton.Size = new System.Drawing.Size(199, 89);
             this.btnButton.TabIndex = 0;
             this.btnButton.Text = "按鈕";
             this.btnButton.UseVisualStyleBackColor = false;
@@ -95,7 +96,7 @@
             // 
             this.btnBMI.BackColor = System.Drawing.Color.LightSalmon;
             this.btnBMI.Font = new System.Drawing.Font("微軟正黑體", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnBMI.Location = new System.Drawing.Point(430, 128);
+            this.btnBMI.Location = new System.Drawing.Point(266, 129);
             this.btnBMI.Name = "btnBMI";
             this.btnBMI.Size = new System.Drawing.Size(168, 89);
             this.btnBMI.TabIndex = 2;
@@ -110,7 +111,7 @@
             this.butTextBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.butTextBox.Location = new System.Drawing.Point(23, 236);
             this.butTextBox.Name = "butTextBox";
-            this.butTextBox.Size = new System.Drawing.Size(338, 89);
+            this.butTextBox.Size = new System.Drawing.Size(199, 89);
             this.butTextBox.TabIndex = 3;
             this.butTextBox.Text = "輸入框";
             this.butTextBox.UseVisualStyleBackColor = false;
@@ -120,7 +121,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button1.Font = new System.Drawing.Font("微軟正黑體", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button1.Location = new System.Drawing.Point(430, 237);
+            this.button1.Location = new System.Drawing.Point(266, 238);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(168, 89);
             this.button1.TabIndex = 4;
@@ -134,7 +135,7 @@
             this.button2.Font = new System.Drawing.Font("微軟正黑體", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button2.Location = new System.Drawing.Point(23, 349);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(338, 89);
+            this.button2.Size = new System.Drawing.Size(199, 89);
             this.button2.TabIndex = 5;
             this.button2.Text = "期中考-攝氏轉華氏";
             this.button2.UseVisualStyleBackColor = false;
@@ -145,7 +146,7 @@
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.button3.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.Location = new System.Drawing.Point(430, 349);
+            this.button3.Location = new System.Drawing.Point(266, 350);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(168, 89);
             this.button3.TabIndex = 6;
@@ -157,7 +158,7 @@
             // 
             this.Timer.BackColor = System.Drawing.Color.Yellow;
             this.Timer.Font = new System.Drawing.Font("微軟正黑體", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Timer.Location = new System.Drawing.Point(620, 129);
+            this.Timer.Location = new System.Drawing.Point(482, 129);
             this.Timer.Name = "Timer";
             this.Timer.Size = new System.Drawing.Size(168, 89);
             this.Timer.TabIndex = 7;
@@ -169,7 +170,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.GreenYellow;
             this.button4.Font = new System.Drawing.Font("微軟正黑體", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button4.Location = new System.Drawing.Point(620, 237);
+            this.button4.Location = new System.Drawing.Point(482, 237);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(168, 89);
             this.button4.TabIndex = 8;
@@ -182,7 +183,7 @@
             this.button5.BackColor = System.Drawing.Color.DarkSlateGray;
             this.button5.Font = new System.Drawing.Font("微軟正黑體", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Location = new System.Drawing.Point(620, 349);
+            this.button5.Location = new System.Drawing.Point(482, 349);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(168, 89);
             this.button5.TabIndex = 9;
@@ -190,12 +191,25 @@
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.button6.Font = new System.Drawing.Font("微軟正黑體", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button6.Location = new System.Drawing.Point(685, 128);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(103, 89);
+            this.button6.TabIndex = 10;
+            this.button6.Text = "66";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.Timer);
@@ -231,6 +245,7 @@
         private System.Windows.Forms.Button Timer;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
 
