@@ -52,7 +52,8 @@ namespace N11310004
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            
+            String main = "", drinking = "", sidedishes = "";
+
             foreach (Control c in panel1.Controls)
             {
                 if (c is CheckBox)
@@ -60,7 +61,7 @@ namespace N11310004
                     CheckBox chk= (CheckBox)c;
                     if (chk.Checked)
                     {
-                        MessageBox.Show(chk.Text);
+                       main += chk.Text+"，";
                     }
                 }
             }
@@ -72,7 +73,7 @@ namespace N11310004
                     CheckBox chk = (CheckBox)c;
                     if (chk.Checked)
                     {
-                        MessageBox.Show(chk.Text);
+                       drinking += chk.Text+"，";
                     }
                 }
             }
@@ -84,11 +85,15 @@ namespace N11310004
                     CheckBox chk = (CheckBox)c;
                     if (chk.Checked)
                     {
-                        MessageBox.Show(chk.Text);
+                        sidedishes+=chk.Text+"，";
+                        // MessageBox.Show(chk.Text);
                     }
                 }
             }
-
+            main=main.Remove(main.Length-1, 1);
+            drinking=drinking.Remove(drinking.Length-1, 1);
+            sidedishes=sidedishes.Remove(sidedishes.Length-1, 1);
+            MessageBox.Show("主餐:"+main+ "\n飲料:"+drinking+"\n小菜:"+sidedishes);
 
         }
     }
