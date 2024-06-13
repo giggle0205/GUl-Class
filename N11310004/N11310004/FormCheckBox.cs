@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace N11310004
 {
@@ -15,6 +16,8 @@ namespace N11310004
         public FormCheckBox()
         {
             InitializeComponent();
+            if (!File.Exists("OrderData.csv"))
+                File.WriteAllText("OrderData.csv", "時間,主食,小菜,飲料\n", Encoding.UTF8);
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -52,6 +55,7 @@ namespace N11310004
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+
             String main = "", drinking = "", sidedishes = "";
 
             foreach (Control c in panel1.Controls)
@@ -93,8 +97,13 @@ namespace N11310004
             main=main.Remove(main.Length-1, 1);
             drinking=drinking.Remove(drinking.Length-1, 1);
             sidedishes=sidedishes.Remove(sidedishes.Length-1, 1);
-            MessageBox.Show("主餐:"+main+ "\n飲料:"+drinking+"\n小菜:"+sidedishes);
 
+            DateTime currentDateTime= DateTime.Now;
+            String orderTime = currentDateTime.ToString("yyyy/MM/dd HH:mm:ss");
+
+            File.AppendAllText("OrderData.csv",orderTime+","+ main+","+drinking+","+sidedishes+"\n");
+            //MessageBox.Show("主餐:"+main+ "\n飲料:"+drinking+"\n小菜:"+sidedishes);
+            MessageBox.Show("完成訂餐");
         }
     }
 }
